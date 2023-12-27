@@ -6,42 +6,7 @@ A brief description of your React application.
 
 You can access a live demo of this project [here](https://venerable-eclair-7c39c3.netlify.app/).
 
-## Installation
-
-Follow these steps to get the project up and running on your local machine:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/Janarthanan2107/Trend-Spotter-React.git
-   cd your-react-app
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-   or
-
-   ```bash
-   yarn
-   ```
-
-3. **Start the development server:**
-
-   ```bash
-   npm run dev
-   ```
-
-   or
-
-   ```bash
-   yarn run dev
-   ```
-
-4. Your React application should now be running locally on [http://localhost:5173/](http://localhost:5173/).
+Your React application should now be running locally with the server on [http://localhost:5173/](http://localhost:5000/).
 
 ## Usage
 
