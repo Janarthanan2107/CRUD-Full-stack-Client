@@ -7,7 +7,7 @@ const submit = document.getElementById("submit");
 submit.addEventListener("click", async (e) => {
     e.preventDefault();
 
-    let res = await fetch("http://localhost:5000/api/v1/products/create", {
+    let res = await fetch("https://fair-red-bighorn-sheep-wrap.cyclic.app/api/v1/products/create", {
         method: "POST",
         headers: {
             "Content-Type": "application/x-www-form-urlencoded",

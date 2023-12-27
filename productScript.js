@@ -3,7 +3,7 @@
 const container = document.getElementById("container")
 
 // Global variable
-const getAllProductsUrl = "http://localhost:5000/api/v1/products";
+const getAllProductsUrl = "https://fair-red-bighorn-sheep-wrap.cyclic.app/api/v1/products";
 
 // Functions
 const init = () => {
@@ -152,7 +152,7 @@ const deleteProduct = async (event) => {
     const { id } = event.target
 
     if (confirm("Are you sure to delete this product ?")) {
-        await fetch(`http://localhost:5000/api/v1/products/${id}`, {
+        await fetch(`https://fair-red-bighorn-sheep-wrap.cyclic.app/api/v1/products/${id}`, {
             method: "DELETE",
         })
         getAllProducts()
@@ -165,7 +165,7 @@ const updateFun = async (event) => {
     const updateForm = document.getElementById(formId);
 
     try {
-        let res = await fetch(`http://localhost:5000/api/v1/products/${id}`, {
+        let res = await fetch(`https://fair-red-bighorn-sheep-wrap.cyclic.app/api/v1/products/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded",
