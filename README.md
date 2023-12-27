@@ -6,7 +6,7 @@ A brief description of your React application.
 
 You can access a live demo of this project [here](https://venerable-eclair-7c39c3.netlify.app/).
 
-Your React application should now be running locally with the server on [http://localhost:5173/](http://localhost:5000/).
+Your React application should now be running locally with the server on [http://localhost:5000/](http://localhost:5000/).
 
 ## Usage
 
